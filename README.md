@@ -20,18 +20,6 @@ This repository provides scripts and a notebook for training and evaluating text
 - Python 3.7 or higher
 - GPU recommended for BERT training
 
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
-   cd <repository_folder>
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## Data Workflow
 
 ### 1. Data Extraction (`data.py`)
@@ -113,10 +101,4 @@ transformers
 datasets
 seaborn
 ``` 
-
-*(Standard Python library `json` and `re` are used in data extraction and cleaning scripts.)*
-
-## License
-
-This project is released under the MIT License. Feel free to reuse and modify.
 
